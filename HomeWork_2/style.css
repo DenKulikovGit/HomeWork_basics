@@ -92,14 +92,14 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style-image: url("./assets/img/solar_map-arrow-up-bold.svg");
-    padding-left: 20px;
+    padding: 0 20px;
     font-weight: 400;
     font-size: 16px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
-    padding-left: 20px;
+    padding: 0 20px;
     font-weight: 400;
     font-size: 16px;
 }
@@ -138,7 +138,7 @@ select {
     /* Стили для линии */
     border: 1px solid rgba(48, 48, 48, 0.3);
     width: 1440px;
-    height: 0px;
+    height: 0;
     margin: 60px 0;
 }
 
@@ -152,7 +152,7 @@ table {
 
 th, td {
     /* Стили для ячеек таблицы */
-    font-size: 14px;
+    font-size: 16px;
     padding: 12px 15px;
     border: 1px solid #95a1bb;
 
