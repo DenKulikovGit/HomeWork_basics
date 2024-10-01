@@ -148,11 +148,11 @@ table {
     height: 196px;
     border: 1px solid #95a1bb;
     border-collapse: collapse;
+    font-size: 16px;
 }
 
 th, td {
     /* Стили для ячеек таблицы */
-    font-size: 16px;
     padding: 12px 15px;
     border: 1px solid #95a1bb;
 
