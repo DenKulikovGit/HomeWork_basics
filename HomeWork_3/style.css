@@ -131,7 +131,7 @@ select:hover,
 .skills-block {
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     order: -1;
 }
 
@@ -141,7 +141,6 @@ select:hover,
     display: flex;
     flex-direction: column;
     gap: 20px;
-    order: 1;
 }
 
 .books-list {
