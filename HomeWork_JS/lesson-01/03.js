@@ -16,4 +16,4 @@ while (y <= 20) {
     y++;
     sum = x;
 }
-console.log(sum)
+console.log(sum);
