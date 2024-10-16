@@ -6,4 +6,13 @@
 */
 
 // your code
-let factorial
+let factorial;
+let x = 10;
+let y = 1;
+let z = 1;
+while (z <= x) {
+    y *= z;
+    z ++;
+    factorial = y;
+}
+console.log(factorial);
