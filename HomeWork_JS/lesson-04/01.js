@@ -15,7 +15,13 @@ includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 
 function includesElement(array, element) {
     let index = array.indexOf(element);
-    return index > -1;
+    if (index > -1) {
+        return true
+    } else {
+        return false
+    }
 }
+
+// console.log(includesElement([1, 2, 3], 6))
 
 
