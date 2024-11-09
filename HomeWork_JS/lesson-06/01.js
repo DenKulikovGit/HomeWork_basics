@@ -24,6 +24,7 @@ const buttonPrev = document.querySelector('#prev-button');
 let currentIndex = 0;
 
 buttonNext.addEventListener('click', () => {
+  // console.log('next', currentIndex);
   currentIndex++;
   if(currentIndex >= WEB_TECH_IMAGES.length) {
     currentIndex = 0;
@@ -32,6 +33,7 @@ buttonNext.addEventListener('click', () => {
 })
 
 buttonPrev.addEventListener('click', () => {
+  // console.log('prev', currentIndex);
   currentIndex--;
   if(currentIndex < 0) {
     currentIndex = WEB_TECH_IMAGES.length - 1;
